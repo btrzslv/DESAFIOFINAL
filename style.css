@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #252525;
+  height: 10vh;
+  color: white;
+}
+
+h2 {
+  width: 50%;
+  color: #f4f2f3;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 290px;
+  font-weight: 900;
+  bottom: -230px;
+  position: relative;
+}
+
+img {
+  width: 12%;
+  position: relative;
+  margin-bottom: 35%;
+  bottom: 2%;
+}
+
+.logo img {
+  float: left;
+  width: 3%;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  margin-top: -1%;
+  margin-left: 5%;
+}
+
+h3 {
+  margin-left: 8%;
+  text-align: left;
+  position: relative;
+  top: 29%;
+}
+
+ul {
+  height: 7vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+nav {
+  height: 20%;
+}
+
+.insta,
+.youtube,
+.zap {
+  width: 55%;
+}
+
+.bg1 {
+  height: 150vh;
+  width: 100%;
+  background-image: url("./Imagens/chapeu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg2 {
+  height: 150vh;
+  width: 100%;
+  background-image: url("./Imagens/ursinho.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5rem;
+}
+
+h1 {
+  margin-left: 6rem;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.textoum {
+  width: 35%;
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  margin: 2rem 0 2rem 0;
+  margin-left: 6rem;
+}
+
+.botaoum {
+  background-color: #3a342f;
+  color: #f4f2f3;
+  width: 15%;
+  height: 10vh;
+  border-radius: 10rem;
+  font-size: 15px;
+  border: none;
+  margin-left: 6rem;
+  font-weight: 900;
+}
+
+.bg3 {
+  height: 150vh;
+  width: 100%;
+  background-image: url("./Imagens/dengoso.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 8rem;
+}
+
+.ultimotitulo {
+  margin-right: -4rem;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.textodois {
+  width: 30%;
+  display: flex;
+  position: relative;
+  margin: -2rem 0 2rem 0;
+  font-size: 30px;
+  margin-right: 3rem;
+}
+
+.botaodois {
+  background-color: #f4f2f3;
+  color: black;
+  width: 15%;
+  height: 10vh;
+  border-radius: 10rem;
+  font-size: 15px;
+  border: none;
+  margin-right: 15rem;
+  font-weight: 900;
+}
+
+.apoiadores {
+  width: 100%;
+  height: 8vh;
+  background-color: white;
+  color: #fd6a9a;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.apoio {
+  font-style: italic;
+  font-size: 2.5vw;
+  align-items: center;
+  margin-top: -1.6rem;
+}
+
+.hava,
+.ame {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  color: white;
+  background-color: #fd6a9a;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.listaul {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  text-align: center;
+  height: 20vh;
+}
+
+.fim{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.atendimento {
+  font-weight: 900;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*mobile*/
+
+@media (max-width: 500px) {
+  header{
+    background-color: #252525;
+    height: 20vh;
+    background-image: url("./Imagens/logo mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+  }
+
+  .bg1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Imagens/chapeu mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./Imagens/urso mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left
+    align-items: center;
+  }
+
+  .bg3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./Imagens/dengo mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+  }
+
+
+  h2{
+    width: 50%;
+    color: #f4f2f3;
+    text-align: center;
+    font-size: 35px;
+    margin-top: -350px;
+    font-weight: 900;
+  }
+
+  .h1,.ultimotitulo{
+    display: flex;
+    width: 100%;
+    color: #f4f2f3;
+    text-align: left;
+    font-size: 10px;
+    margin-top: -20px;
+    font-weight: 900;
+  }
+
+  .textoum,.textodois{
+    width: -200%;
+    font-size: 20px;
+    margin-left: 20px;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: space-around;
+  }
